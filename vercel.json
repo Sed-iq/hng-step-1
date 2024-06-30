@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "hng-backend-step1",
+    "name": "hng-step-1",
     "builds": [
         {
             "src": "app.js",
