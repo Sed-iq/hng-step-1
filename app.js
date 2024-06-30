@@ -1,7 +1,7 @@
 const express = require("express")
 const dotenv = require("dotenv")
 dotenv.config()
-const geoip = require("geoip-lite")
+// const geoip = require("geoip-lite")
 const app = express()
 
 app.get("/api/hello", (req, res) => {
