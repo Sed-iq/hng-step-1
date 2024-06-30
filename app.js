@@ -1,5 +1,6 @@
 const express = require("express")
-const dotenv = require("dotenv").config()
+const dotenv = require("dotenv")
+dotenv.config()
 const geoip = require("geoip-lite")
 const app = express()
 
