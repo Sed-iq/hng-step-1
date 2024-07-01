@@ -11,7 +11,7 @@ app.get("/api/hello", async (req: Request, res: Response) => {
         const { visitor_name } = req.query
         res.json({
             client_ip: ip,
-            location: geo.location.city,
+            location: geo.location.name,
             geeting: `Hello, ${visitor_name}!, the temperature is ${geo.current.temp_c} degrees in ${geo.location.name}`
         })
     } catch (error) {
